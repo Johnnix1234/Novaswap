@@ -1,9 +1,8 @@
 const form = document.getElementById('form');
-const username = document.getElementById('username');
-const username2 = document.getElementById('username2');
+
 const email = document.getElementById('email');
 const password = document.getElementById('password');
-const password2 = document.getElementById('password2');
+
 
 form.addEventListener('submit', e => {
     e.preventDefault();
@@ -13,27 +12,11 @@ form.addEventListener('submit', e => {
 
 function checkInputs() {
     // trim to remove the whitespaces
-    const usernameValue = username.value.trim();
-    const username2Value = username2.value.trim();
+
     const emailValue = email.value.trim();
     const passwordValue = password.value.trim();
-    const password2Value = password2.value.trim();
 
 
-    if (usernameValue === '') {
-        setErrorFor(username, 'First Name cannot be left blank');
-    } else if (usernameValue.length <= 3) {
-        setErrorFor(username, 'First Name cannot be less than 4 characters');
-    } else {
-        setSuccessFor(username);
-    }
-    if (username2Value === '') {
-        setErrorFor(username2, 'Last Name cannot be left blank');
-    } else if (username2Value.length <= 3) {
-        setErrorFor(username2, 'Last Name cannot be less than 4 characters');
-    } else {
-        setSuccessFor(username2);
-    }
     if (emailValue === '') {
         setErrorFor(email, 'Email cannot be left blank');
     } else if (!isEmail(emailValue)) {
@@ -50,13 +33,7 @@ function checkInputs() {
         setSuccessFor(password);
     }
 
-    if (password2Value === '') {
-        setErrorFor(password2, 'Password cannot left be blank');
-    } else if (passwordValue !== password2Value) {
-        setErrorFor(password2, 'Passwords does not match');
-    } else {
-        setSuccessFor(password2);
-    }
+
 }
 
 function setErrorFor(input, message) {

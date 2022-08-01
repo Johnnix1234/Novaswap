@@ -141,24 +141,6 @@ body {
     transition: ease-in-out .4s;
 }
 
-.rights {
-    text-align: justify;
-}
-
-.lefts {
-    text-align: justify;
-}
-
-.rights input {
-    cursor: pointer;
-    vertical-align: middle;
-}
-
-.lefts input {
-    cursor: pointer;
-    vertical-align: middle;
-}
-
 .remchkbk {
     padding-left: 25px;
 }
@@ -225,7 +207,6 @@ input:invalid {
     font-weight: 700;
     font-size: 14px;
     text-align: center;
-    margin-bottom: 10px;
     margin-top: 20px;
 }
 
