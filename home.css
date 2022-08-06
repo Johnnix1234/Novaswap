@@ -9,11 +9,101 @@ body {
     background-color: #14003b;
 }
 
-.pre-footer {
+.news-ticker {
     background-color: #14003b;
-    height: 60vh;
+    height: 80vh;
     margin: 10px;
-    overflow: auto;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+.news-ticker ul li i {
+    font-size: large;
+}
+
+.news-ticker ul {
+    list-style: none;
+    animation: ticker 10s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateY(1);
+    }
+    5% {
+        transform: translateY(2);
+    }
+    10% {
+        transform: translateY(3);
+    }
+    15% {
+        transform: translateY(4);
+    }
+    20% {
+        transform: translateY(5);
+    }
+    25% {
+        transform: translateY(6);
+    }
+    30% {
+        transform: translateY(7);
+    }
+    35% {
+        transform: translateY(8);
+    }
+    40% {
+        transform: translateY(9);
+    }
+    45% {
+        transform: translateY(10);
+    }
+    50% {
+        transform: translateY(11);
+    }
+    55% {
+        transform: translateY(12);
+    }
+    60% {
+        transform: translateY(13);
+    }
+    65% {
+        transform: translateY(14);
+    }
+    70% {
+        transform: translateY(15);
+    }
+    75% {
+        transform: translateY(16);
+    }
+    80% {
+        transform: translateY(17);
+    }
+    85% {
+        transform: translateY(18);
+    }
+    90% {
+        transform: translateY(19);
+    }
+    95% {
+        transform: translateY(20);
+    }
+    100% {
+        margin-top: -542px;
+    }
+}
+
+
+/* .news-ticker ul:hover {
+    animation-play-state: paused;
+} */
+
+.news-ticker ul li {
+    line-height: 40px;
+    font-size: 10px;
+    color: #fff;
+    margin: 10px;
+    text-align: justify;
 }
 
 .hdtg {
@@ -63,12 +153,12 @@ body {
 }
 
 footer {
-    background-color: #14003b;
+    background-color: #100030;
     height: 45px;
     width: 100%;
     text-align: start;
-    position: absolute;
-    bottom: -30px;
+    position: relative;
+    /* bottom: -20px; */
     left: 0px;
     padding-top: 10px;
 }
