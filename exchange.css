@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #14003b;
+}
+
+.Changenow {
+    margin: 10px 10px;
+    display: flex;
+}
+
+.transact{
+    background-color: #190146;
+    margin: 10px 10px;
+    border-radius: 10px;
+    
+}
+
+li{
+    display: inline-block; 
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+  
