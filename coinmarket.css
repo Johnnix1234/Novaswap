@@ -1,65 +1,107 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #14003b;
+  background-color: #14003b;
 }
+/* .wrapper {
+  display: flex;
+  flex-direction: column;
+} */
 
 .coin {
-    margin: auto 10px;
-    margin-top: 10px;
-    /* margin-bottom: -50px; */
+  margin: auto 10px;
+  margin-top: 10px;
+
+  /* margin-bottom: -50px; */
+}
+.space {
+  padding: 40px;
 }
 
 .hdtg {
-    justify-content: start;
-    display: flex;
-    margin-left: -80px;
+  justify-content: start;
+  display: flex;
+  margin-left: -80px;
 }
 
 .hdtg span {
-    color: purple;
+  color: purple;
 }
 
 .hdtg img {
-    height: 200px;
-    width: 200px;
-    margin-top: -50px;
-    margin-left: 30px;
+  height: 200px;
+  width: 200px;
+  margin-top: -50px;
+  margin-left: 30px;
 }
 
 .hdtg h1 {
-    font-size: 35px;
-    color: #fff;
-    margin-left: -60px;
-    padding-top: 30px;
+  font-size: 35px;
+  color: #fff;
+  margin-left: -60px;
+  padding-top: 30px;
+}
+
+.modal {
+  /* background-color: white; */
+  margin: 1em auto;
+  max-width: 700px;
+  padding: 1em;
+  text-align: center;
+}
+
+.images {
+  margin-top: 1em;
+  position: relative;
+  width: 256px;
+  height: 256px;
+}
+
+[class*="slide-"] {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: opacity linear 0.5s;
+}
+
+.to-one:checked ~ .images .slide-one,
+.to-two:checked ~ .images .slide-two,
+.to-three:checked ~ .images .slide-three {
+  opacity: 1;
 }
 
 footer {
-    background-color: #100030;
-    height: 45px;
-    width: 100%;
-    text-align: start;
-    position: relative;
-    /* bottom: -300px; */
-    left: 0px;
-    padding-top: 10px;
+  background-color: #100030;
+  height: 45px;
+  width: 100%;
+  text-align: start;
+  padding-top: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
 
 .footer-imgs img {
-    height: 30px;
+  height: 30px;
 }
 
 .footer-imgs {
-    margin-left: 10px;
-    margin-right: 10px;
-    display: flex;
-    justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-imgs a {
-    cursor: pointer;
+  cursor: pointer;
 }

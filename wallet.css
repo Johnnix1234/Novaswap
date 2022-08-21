@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Poppins:wght@500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.col-sm-4{
+    padding: 1rem;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.wrap{
+    background-color: #14003b;
+}
+
+.hdtg {
+    justify-content: start;
+    display: flex;
+    margin-left: -80px;
+}
+
+.hdtg span {
+    color: purple;
+}
+
+.hdtg img {
+    height: 200px;
+    width: 200px;
+    margin-top: -50px;
+    margin-left: 30px;
+}
+
+.hdtg h1 {
+    font-size: 35px;
+    color: #fff;
+    margin-left: -60px;
+    padding-top: 30px;
+}
+
+.secbody h3 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 100;
+    margin-left: 10px;
+    margin-top: -50px;
+    font-family: 'Archivo', sans-serif;
+   text-align: center;
+}
+
+footer {
+    background-color: #100030;
+    height: 45px;
+    width: 100%;
+    text-align: start;
+    position: relative;
+    /* bottom: -20px; */
+    left: 0px;
+    padding-top: 10px;
+}
+
+.footer-imgs img {
+    height: 30px;
+}
+
+.footer-imgs {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-imgs a {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+    .rating-img {
+        float: none;
+    }
+}
