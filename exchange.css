@@ -1,30 +1,84 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #14003b;
+  background-color: #14003b;
 }
 
 .Changenow {
-    margin: 10px 10px;
-    display: flex;
+  margin: 10px 10px;
+  display: flex;
 }
 
-.transact{
-    background-color: #190146;
-    margin: 10px 10px;
-    border-radius: 10px;
-    
+.transact {
+  background-color: #190146;
+  margin: 10px auto;
+  border-radius: 10px;
+  color: #fff;
+  max-width: 650px;
 }
 
-li{
-    display: inline-block; 
-    margin-left: 20px;
-    font-size: 20px;
+/* li {
+  display: inline-block;
+  font-size: 20px;
+} */
+
+ul {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  /* background: #14003b; */
+  margin: 0;
+  padding: 0;
+  /* background: #190146; */
+}
+li {
+  display: block;
+  flex: 1 1 auto;
+  list-style-type: none;
+  background-color: #190146;
+  justify-content: center;
 }
 
+.line-1 {
+  padding: 1px;
+  background-color: #fff;
+}
+.line-2 {
+  padding: 1px;
+  background-color: #fff;
+}
+.line-3 {
+  padding: 1px;
+  background-color: #fff;
+}
 
-  
+footer {
+  background-color: #100030;
+  height: 45px;
+  width: 100%;
+  text-align: start;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 10px;
+}
+
+.footer-imgs img {
+  height: 30px;
+}
+
+.footer-imgs {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-imgs a {
+  cursor: pointer;
+}
