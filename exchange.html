@@ -1,48 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exchange</title>
-    <link rel="stylesheet" href="exchange.css">
-</head>
+    <link rel="stylesheet" href="exchange.css" />
+  </head>
 
-<body>
+  <body>
     <div class="Changenow">
-        <iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=true&amount=0.1&amountFiat=1500&backgroundColor=FFFFFF&darkMode=false&from=btc&fromFiat=eur&horizontal=false&isFiat&lang=en-US&link_id=f64e4d0a685042&locales=true&logo=false&primaryColor=002ac2&to=eth&toFiat=eth&toTheMoon=true'
-            style="height: 356px; width: 100%; border: none"></iframe>
-        <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
+      <iframe
+        id="iframe-widget"
+        src="https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=true&amount=0.1&amountFiat=1500&backgroundColor=FFFFFF&darkMode=false&from=btc&fromFiat=eur&horizontal=false&isFiat&lang=en-US&link_id=f64e4d0a685042&locales=true&logo=false&primaryColor=002ac2&to=eth&toFiat=eth&toTheMoon=true"
+        style="height: 356px; width: 100%; border: none"
+      ></iframe>
+      <script
+        defer
+        type="text/javascript"
+        src="https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js"
+      ></script>
     </div>
-    <div class="trans">
-     <div class="transact">
-      <h1>Transaction History</h1>
-    <div class="transactlist">
-        <ul>
-            <li>
-                <li>S/N</li>
-                <div class="line-1"></div>
-                <li>Exchange-Pairs</li>
-                <div class="line-2"></div>
-                <li>Date</li>
-                <div class="line-3"></div>
-                <li>Status</li>
-                <div class="line-4"></div>
-            </li>
-        </ul>
-        </div>
-    </div>
-   </div>
-   <footer>
-    <div class="footer-imgs">
-        <a href="home.html"><img src="images/home.png" class="footer-home"></a>
-        <a href="coinmarket.html"><img src="images/coinmarket.png" class="footer-wallet"></a>
-        <a href="trade.html"><img src="images/trade.png" class="footer-trade"></a>
-        <a href="exchange.html"><img src="images/exchange.png" class="footer-exchange"></a>
-        <a href="wallet.html"><img src="images/wallet.png" class="footer-wallet"></a>
-    </div>
-</footer>
-</body>
 
+    <div class="footer">
+      <h1>Transaction History:</h1>
+      <div class="footer-content">
+        <div class="footer-section about">
+          <h2>S/N</h2>
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+          </ul>
+        </div>
+        <div class="footer-section links">
+          <h2>Pairs</h2>
+          <br />
+          <ul>
+            <li>BTC => ETH</li>
+            <li>TRX => ETH</li>
+            <li>BTC => DOGE</li>
+            <li>LUNC => TRX</li>
+            <li>ADA => LUNC</li>
+            <li>BTC => ETH</li>
+            <li>BTC => TRX</li>
+            <li>DOGE => SOL</li>
+            <li>ETH => DAI</li>
+            <li>DOGE => BTC</li>
+          </ul>
+        </div>
+        <div class="footer-section contact-form">
+          <h2>Status</h2>
+          <br />
+          <ul>
+            <li>Completed</li>
+            <li>Completed</li>
+            <li>Pending</li>
+            <li>Pending</li>
+            <li>Uncompleted</li>
+            <li>Uncompleted</li>
+            <li>Completed</li>
+            <li>Completed</li>
+            <li>Pending</li>
+            <li>Pending</li>
+          </ul>
+        </div>
+        <div class="footer-section date">
+          <h2>Date</h2>
+          <br />
+          <ul>
+            <li>18/01/2010</li>
+            <li>19/02/2011</li>
+            <li>20/03/2012</li>
+            <li>21/04/2013</li>
+            <li>22/05/2014</li>
+            <li>23/06/2015</li>
+            <li>24/07/2016</li>
+            <li>25/08/2017</li>
+            <li>26/09/2018</li>
+            <li>27/10/2019</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-imgs">
+        <a href="home.html"
+          ><img src="images/home.png" class="footer-home"
+        /></a>
+        <a href="coinmarket.html"
+          ><img src="images/coinmarket.png" class="footer-wallet"
+        /></a>
+        <a href="exchange.html"
+          ><img src="images/exchange.png" class="footer-exchange"
+        /></a>
+        <a href="wallet.html"
+          ><img src="images/wallet.png" class="footer-wallet"
+        /></a>
+      </div>
+    </footer>
+  </body>
 </html>
