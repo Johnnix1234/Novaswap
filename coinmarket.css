@@ -46,9 +46,7 @@ body {
   padding-top: 30px;
 }
 
-.modal {
-  /* background-color: white; */
-  /* margin: 1em auto; */
+/* .modal {
   max-width: 700px;
   padding: 1em;
   text-align: center;
@@ -90,7 +88,7 @@ body {
 .to-two:checked ~ .images .slide-two,
 .to-three:checked ~ .images .slide-three {
   opacity: 1;
-}
+} */
 
 footer {
   background-color: #100030;

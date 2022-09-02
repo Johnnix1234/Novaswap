@@ -159,3 +159,18 @@ footer {
   line-height: 25px;
   font-size: 15px;
 }
+
+@media only screen and (max-width: 499px) {
+  .footer .footer-content .about ul {
+    display: none;
+  }
+  .footer .footer-content .about h2 {
+    display: none;
+  }
+  .footer-content {
+    justify-content: space-around;
+  }
+  .footer .footer-content .footer-section {
+    flex: 1 1 auto;
+  }
+}
